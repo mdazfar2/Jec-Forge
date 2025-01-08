@@ -35,10 +35,10 @@ const categories: Category[] = [
         'Next.js',
         'Nuxt.js',
         'Svelte',
-        'Tailwind CSS',
+        'Tailwind_CSS',
         'Bootstrap',
-        'Material UI',
-        'Chakra UI',
+        'Material_UI',
+        'Chakra_UI',
         'Webpack',
         'Vite',
         'Gatsby',
@@ -49,14 +49,14 @@ const categories: Category[] = [
         'LESS',
         'TypeScript',
         'Emotion',
-        'Styled Components',
+        'Styled_Components',
         'Lit',
         'Alpine.js',
         'Stitches',
         'Storybook',
         'Chart.js',
         'D3.js',
-        'Framer Motion',
+        'Framer_Motion',
         'GreenSock (GSAP)',
         'A-Frame',
         'Zustand',
@@ -69,11 +69,30 @@ const categories: Category[] = [
     ]
 },
 
-  {
-    name: 'Backend',
-    icon: Server,
-    subcategories: ['Node.js', 'Python', 'Java', 'Go', 'Ruby']
-  },
+{
+  name: 'Backend',
+  icon: Server,
+  subcategories: [
+    'Node.js',
+    'Express.js',
+    'Python',
+    'Django',
+    'Flask',
+    'Java',
+    'Spring_Boot',
+    'Go',
+    'Gin',
+    'Ruby_on_Rails',
+    'PHP',
+    'Laravel',
+    'ASP.NET_Core',
+    'Kotlin',
+    'Ktor',
+    'Rust',
+    'Actix_Web'
+  ]
+},
+
   {
     name: 'Cloud_Computing',
     icon: Cloud,

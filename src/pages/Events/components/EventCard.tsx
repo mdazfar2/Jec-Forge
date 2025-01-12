@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Event } from '../../../types/event';
 
 interface EventCardProps {
@@ -56,9 +57,18 @@ export default function EventCard({ event }: EventCardProps) {
           <button className="flex-1 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white py-2 px-4 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
             Details
           </button>
-          <button className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors">
-            Register Now
-          </button>
+          {event.title === 'DSML Cricket League' ? (
+            <Link
+              to="/events/register/cricket"
+              className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors text-center"
+            >
+              Register Now
+            </Link>
+          ) : (
+            <button className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 transition-colors">
+              Register Now
+            </button>
+          )}
         </div>
       </div>
     </div>

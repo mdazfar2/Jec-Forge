@@ -5,6 +5,8 @@ import AboutPage from './pages/About';
 import EventsPage from './pages/Events';
 import ResourcesPage from './pages/ResourcesPage';
 import ContactPage from './pages/Contact';
+import CricketRegistration from './pages/Events/components/registration/CricketRegistration';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/events" element={<EventsPage />} />
         <Route path="/resources/*" element={<ResourcesPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/events/register/cricket" element={<CricketRegistration />} />
       </Routes>
     </Router>
   );

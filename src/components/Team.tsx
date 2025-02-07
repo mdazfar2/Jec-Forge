@@ -22,7 +22,7 @@ const teamMembers: TeamMember[] = [
     id: 1,
     name: 'Azfar Alam',
     role: 'Founder & Lead Developer',
-    image: '/public/azfar.jpeg',
+    image: '/azfar.jpeg',
     description: 'Leads project development, oversees technical architecture, and ensures innovation in creating impactful solutions.',
     social: {
       github: 'https://github.com/mdazfar2',
@@ -34,7 +34,7 @@ const teamMembers: TeamMember[] = [
     id: 2,
     name: 'Nitish Kumar',
     role: 'Co-founder & Technical Lead',
-    image: '/public/nitish3.jpeg',
+    image: '/nitish3.jpeg',
     description: 'Manages the technical roadmap, resolves critical issues, and coordinates development efforts across teams.',
     social: {
       github: 'https://github.com/nitishkumar525',
@@ -70,7 +70,7 @@ const teamMembers: TeamMember[] = [
     id: 5,
     name: 'Sachin Singh',
     role: 'DevOps Associate',
-    image: '/public/sachin-2.jpg',
+    image: '/sachin-2.jpg',
     description: 'Supports CI/CD pipelines, optimizes deployment processes, and ensures seamless software delivery.',
     social: {
       github: 'https://github.com/sachin2815',

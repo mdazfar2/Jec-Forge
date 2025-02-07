@@ -4,7 +4,7 @@ import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import EventsPage from './pages/Events';
 import ResourcesPage from './pages/ResourcesPage';
-import ContactPage from './pages/Contact';
+import ContactPage from './components/Contact'; // Update the import path
 import Team from './components/Team';
 import CricketRegistration from './pages/Events/components/registration/CricketRegistration';
 
@@ -16,7 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/resources/*" element={<ResourcesPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactPage />} /> {/* Update the route */}
         <Route path="/team" element={<Team />} />
         <Route path="/events/register/cricket" element={<CricketRegistration />} />
       </Routes>

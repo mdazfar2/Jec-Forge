@@ -22,7 +22,7 @@ const teamMembers: TeamMember[] = [
     id: 1,
     name: 'Azfar Alam',
     role: 'Founder & Lead Developer',
-    image: '/azfar.jpeg',
+    image: '/assets/azfar.webp',
     description: 'Leads project development, oversees technical architecture, and ensures innovation in creating impactful solutions.',
     social: {
       github: 'https://github.com/mdazfar2',
@@ -32,9 +32,9 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 2,
-    name: 'Nitish Kumar',
+    name: 'Nitish Kumar Jha',
     role: 'Co-founder & Technical Lead',
-    image: '/nitish3.jpeg',
+    image: '/assets/Nitish Kumar Jha.webp',
     description: 'Manages the technical roadmap, resolves critical issues, and coordinates development efforts across teams.',
     social: {
       github: 'https://github.com/nitishkumar525',
@@ -46,7 +46,7 @@ const teamMembers: TeamMember[] = [
     id: 3,
     name: 'Manikant Singh',
     role: 'Project Coordinator',
-    image: 'mani2.jpg',
+    image: '/assets/mani2.webp',
     description: 'Organizes tasks, monitors progress, and ensures timely delivery of project milestones with effective communication.',
     social: {
       github: 'https://github.com/manikant69',
@@ -58,7 +58,7 @@ const teamMembers: TeamMember[] = [
     id: 4,
     name: 'Ravishankar Kumar',
     role: 'Backend Developer',
-    image: 'ravisk.jfif',
+    image: '/assets/ravisk.webp',
     description: 'Develops scalable APIs, optimizes server-side logic, and ensures secure database integration for applications.',
     social: {
       github: 'https://github.com/ravisksingh1999',
@@ -70,7 +70,7 @@ const teamMembers: TeamMember[] = [
     id: 5,
     name: 'Sachin Singh',
     role: 'DevOps Associate',
-    image: '/sachin-2.jpg',
+    image: '/assets/sachin-2.webp',
     description: 'Supports CI/CD pipelines, optimizes deployment processes, and ensures seamless software delivery.',
     social: {
       github: 'https://github.com/sachin2815',
@@ -82,7 +82,7 @@ const teamMembers: TeamMember[] = [
     id: 6,
     name: 'Raviranjan Kumar',
     role: 'Frontend Developer',
-    image: 'ravirj.jpg',
+    image: '/assets/ravirj.webp',
     description: 'Builds intuitive user interfaces, enhances user experience, and integrates designs seamlessly with backend systems.',
     social: {
       github: 'https://github.com/raviranjan0',
@@ -94,7 +94,7 @@ const teamMembers: TeamMember[] = [
     id: 7,
     name: 'Anuj Kumar',
     role: 'Frontend Developer',
-    image: 'anuj.enc',
+    image: '/assets/anuj.webp',
     description: 'Creates responsive and dynamic web interfaces, focusing on accessibility and cross-platform compatibility.',
     social: {
       github: 'https://github.com/anujgaurave',
@@ -106,7 +106,7 @@ const teamMembers: TeamMember[] = [
     id: 8,
     name: 'Aditya Kumar',
     role: 'Community Manager',
-    image: 'adi2.jpg',
+    image: '/assets/adi2.webp',
     description: 'Engages with the community, manages outreach programs, and fosters collaboration among developers and users.',
     social: {
       github: 'https://github.com/Aditya05-dev',

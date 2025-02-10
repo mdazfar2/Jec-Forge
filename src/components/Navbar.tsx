@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/public/forge.png" className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
+            <img src="/public/assets/forge.webp" className="h-8 w-8 text-indigo-600 dark:text-indigo-400" />
             <span className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Jec Forge</span>
           </Link>
           </div>

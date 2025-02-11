@@ -17,13 +17,13 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">© {new Date().getFullYear()} Jec Forge. All rights reserved.</p>
           <div className="flex justify-center space-x-4 mt-4">
-            <a href="https://github.com" className="hover:text-indigo-400">
+            <a href="https://github.com/jec-forge" className="hover:text-indigo-400">
               <FaGithub className="h-6 w-6" />
             </a>
-            <a href="https://linkedin.com" className="hover:text-indigo-400">
+            <a href="https://linkedin.com/company/jec-forge" className="hover:text-indigo-400">
               <FaLinkedin className="h-6 w-6" />
             </a>
-            <a href="https://discord.com" className="hover:text-indigo-400">
+            <a href="https://discord.gg/gv62bmXuGB" className="hover:text-indigo-400">
               <FaDiscord className="h-6 w-6" />
             </a>
           </div>

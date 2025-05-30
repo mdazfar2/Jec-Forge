@@ -1,0 +1,82 @@
+name: 📚 Add New Resource
+description: Suggest a new resource to be added to the /resources section of Jec-Forge.
+title: '[Resource]'
+labels: [resource, contribution]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource Title
+      description: Provide a short and meaningful title for the resource.
+      placeholder: e.g., "Intro to React.js for Beginners"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: Add the direct link to the resource.
+      placeholder: e.g., "https://example.com/mern"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what this resource covers.
+      placeholder: A beginner-friendly course that introduces Docker basics with hands-on examples.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the exact category from the `ResourcesSidebar.tsx`.
+      options:
+        - Frontend
+        - Backend
+        - DevOps
+        - Cloud_Computing
+        - Databases
+        - Security
+        - Tools
+        - Others
+    validations:
+      required: true
+
+  - type: input
+    id: subcategory
+    attributes:
+      label: Subcategory
+      description: Make sure the subcategory matches exactly with the ones in `ResourcesSidebar.tsx`.
+      placeholder: e.g., "Docker", "AWS", "Node.js"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      description: Choose the resource difficulty level.
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: "I have verified the link is working and not a duplicate."
+          required: true
+        - label: "I matched the category/subcategory exactly as in `ResourcesSidebar.tsx`."
+          required: true
+        - label: "I’ve read the [Contributing Guidelines](https://github.com/mdazfar2/Jec-Forge/blob/main/CONTRIBUTING.md)."
+          required: true
+        - label: "I have used a meaningful title and description for this resource."

@@ -1,0 +1,21 @@
+name: Greetings
+
+on:
+  fork:
+  push:
+    branches: [main]
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "**Hey, ${{ github.actor }}!** 👋 Thanks for opening an issue in **JEC Forge**! \n\nWe appreciate your input and support. Stay connected: \n\n- ⭐ **Star this repo** to show support! \n- 💬 **Join our [Discord](https://discord.com/invite/gv62bmXuGB)** to connect and collaborate. \n- 🔗 **Follow us on [LinkedIn](https://www.linkedin.com/company/jec-forge/)** for updates. \n- 🛠️ **Explore more on our [GitHub Org](https://github.com/Jec-Forge)**. \n\nWelcome aboard! 🚀"
+          pr-message: "Thanks, ${{ github.actor }}, for your contribution to **JEC Forge**! 🎉\nYour PR is submitted—our team will review it shortly. We're grateful for your effort!"
